@@ -1,0 +1,1143 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: tahoma;
+}
+
+a {
+	text-decoration: none;
+}
+
+/* header part part for homepage start */
+.head1{
+	height: 90px;
+	width: 100%;
+	background-color: #3d9970;
+	margin: auto;
+	padding-bottom: 5px;
+}
+.head2{
+	width: 90%;
+	margin:auto;
+
+}
+
+.head2 a img {
+
+	padding: 10px;
+	margin-top: 10px;
+	margin-left: 100px;
+	overflow: hidden;
+}
+
+.head2 a button {
+	float: right;
+	height: 35px;
+	width: 100px;
+	margin: 30px;
+	border: 3px solid #001f3f;
+}
+
+.head2 a button:hover {
+	border: 3px solid white;	
+}
+
+/* header part part for homepage ends */
+
+.background{
+	height:500px;
+	width: 100%;
+	background-image: url(images/picture.png);
+	background-size:1370px 520px;
+}6
+.image img {
+	display: block;
+	height: 600px;
+	width: 100%;
+	padding-top: 5px;
+}
+.quotes{
+6	height: 400px;
+	width: 47%; 
+	float: left;
+	text-align: right;
+}
+.quotes p{
+	display: inline-block;
+	margin-top: 165px;
+	font-family: Baskerville Old Face;
+	font-size: 37px;
+	color: rgba(0, 255, 69, 0.96);
+	text-align: justify;
+	margin-left: 74px;
+
+}
+.quotes h1{
+	display: inline-block;
+	font-family: Baskerville Old Face;
+	font-size: 33px;;
+	color: rgb(226, 255, 0);
+	margin-top: 9px;
+	margin-right: 10px;
+	
+}
+
+
+/* Option part part for homepage starts */
+.who {
+	height: 400px;
+	width: 100%;
+	background: white;
+	overflow: hidden;
+}
+
+.who1 {
+	width: 70%;
+	margin: auto;
+	overflow: hidden;
+}
+
+.whoClass {
+	height: 330px;
+	width: 35%;
+	margin: 30px 40px;
+	float: left;
+	border-left: 3px solid mediumseagreen;
+	padding: 1px;
+	box-shadow: 1px 1px 0px #6a5750;
+
+
+}
+
+.whoClass img {
+	height: 115px;
+	width: 110px;
+	margin: auto;
+	display: block;
+}
+
+.whoClass p,h1 {
+	text-align: center;
+	color: black;
+	font-family: ubuntu;
+	padding: 5px;
+}
+
+.whoClass p {
+	font-size: 25px;
+	font-weight: bold;
+	padding-bottom: 20px;
+
+}
+
+.whoClass h1 {
+	font-size: 19px;
+}
+
+.mission {
+	height: 330px;
+	width: 35%;
+	margin: 30px 80px;
+	float: left;
+	border-left: 3px solid mediumseagreen;
+	padding: 1px;
+	box-shadow: 1px 1px 0px #6a5750;
+}
+
+.mission p,h1 {
+	text-align: center;
+	color: black;
+	font-family: ubuntu;
+	padding: 5px;
+
+}
+
+.mission p {
+	font-size: 25px;
+	font-weight: bold;
+
+}
+
+.mission h1 {
+	font-size: 17px;
+}
+
+.mission img {
+	height: 115px;
+	width: 110px;
+	margin: auto;
+	display: block;
+}	
+/* Option part part for homepage ends */
+
+/* Valunteer Part for Homepage start */
+
+
+.valunteer {
+	height: 400px;
+	width: 100%;
+	overflow: hidden;
+}
+
+
+
+.aboutValunteer{
+	height: 400px;
+	width: 40%;
+	background-color: #F0F3F4;
+	float: left;
+	overflow: hidden;
+
+}
+
+.aboutPart {
+	height: 350px;
+	width: 70%;
+	margin: auto;
+
+}
+
+.aboutPart img {
+	height: 105px;
+	width: 105px;
+	margin: 50px auto 10px;
+	display: block;
+}
+.aboutPart p {
+	text-align: center;
+	font-family: tahoma;
+	font-size: 16px;
+	padding-bottom: 5px;
+
+}
+.aboutPart h1 {
+	text-align: center;
+	font-family: tahoma;
+	font-size: 20px;
+	padding-bottom: 12px;
+	border-bottom: 3px solid black;
+
+}
+
+.signUpValunteer {
+	height: 400px;
+	width: 60%;
+	background-color: #312c32;	
+	float: right;
+	overflow: hidden;
+}
+
+.valunteerForm {
+	height: 370px;
+	width: 80%;
+	margin: 13px auto;
+	border: 2px solid white;
+	overflow: hidden;
+	display: block;
+}
+.innerValunteerForm {
+	height: 350px;
+	width: 75%;
+	margin: 35px auto;
+}
+
+.VnameEntry  p {
+	display: inline-block;
+	font-size: 24px;
+	color: white;
+	margin: 8px 10px;
+	padding-top: 2px;
+	vertical-align: middle;
+	color: white;
+
+}
+.VnameEntry input {
+	display: inline;
+	padding: 7px;
+	margin-right: 3px;
+	box-shadow: 1px 1px 0px;
+}
+
+.VsexEntry  p {
+	display: inline-block;
+	font-size: 24px;
+	color: white;
+	margin: 15px 35px 20px 10px;
+	padding-top: 2px;
+	vertical-align: middle;
+	color: white;
+
+}
+.VsexEntry select {
+	display: inline;
+	padding: 7px;
+	margin-right: 10px;
+	box-shadow: 1px 1px 0px;
+}
+
+.VcontactEntry  p {
+	display: inline-block;
+	font-size: 24px;
+	color: white;
+	margin: 15px 7px 20px 10px;
+	padding-top: 2px;
+	vertical-align: middle;
+	color: white;
+}
+.VcontactEntry input {
+	display: inline;
+	padding: 7px;
+	margin-right: 10px;
+	box-shadow: 1px 1px 0px;
+}
+
+.VemailEntry  p {
+	display: inline-block;
+	font-size: 24px;
+	color: white;
+	margin: 15px 14px 20px 10px;
+	padding-top: 2px;
+	vertical-align: middle;
+	color: white;
+
+}
+.VemailEntry input {
+	display: inline;
+	padding: 7px;
+	padding-right: 10px;
+	margin-right: 10px;
+	box-shadow: 1px 1px 0px;
+}
+
+
+.innerValunteerForm button{
+	padding: 7px 115px;
+	border: 2px solid #AAB7B8;
+	margin: 20px 0px 0px 115px;
+}
+
+.innerValunteerForm button:hover {
+	border: 2px solid #729f98;
+}
+
+/* Valunteer Part for Homepage start */
+
+/* Footer Part for Homepage start */
+
+.footer {
+	height: 200px;
+	width: 100%;
+	background-color: #283018;
+}
+
+/* Footer Part for Homepage ends */
+
+
+/* Home page ends */
+
+
+
+
+
+
+/* Log in page start */
+/* Lower part  for log in page start */
+
+.area{
+	height: 560px;
+	width: 100%;
+	background : white;
+	position: relative;	
+}
+
+.innerArea {
+	position: absolute;
+	top: 60px;
+	left: 490px;
+	margin: auto;
+	border: 2px solid #BFC9CA;
+	padding: 48px 100px 60px;
+
+}
+.innerArea img {
+	height: 100px;
+	width: 100px;
+	border-radius: 50%;
+	margin-left: 50px;
+	padding-bottom: 20px;
+}
+
+.user p{
+	color: #352b3c;
+	font-size: 23px;
+	padding-bottom: 7px;
+}
+
+.user input{
+	padding: 6px 21px;
+	float: right;
+	margin-bottom: 10px;
+	box-shadow: 0px 0px 0px;
+
+}
+
+
+.pass p{
+	color: #352b3c;
+	font-size: 23px;
+	padding-bottom: 7px;
+}
+
+.pass input{
+	padding: 6px 21px;
+	float: right;
+	margin-bottom: 25px;
+	box-shadow: 0px 0px 0px;
+}
+
+
+.bottom input{
+	padding: 8px 85px;
+	border: 2px solid #AAB7B8;
+}
+
+.bottom input:hover {
+	border: 2px solid black;
+}
+/* Lower part  for log in  end */
+
+/* Log in page ends */
+
+
+
+
+
+/* Orphan Entry page start */
+/*information Part of the data entry start*/
+.headerEntry{
+
+	height: 50px;
+	width: 100%;
+	background: #363635;
+	padding-top: 10px;
+
+}
+
+.headerEntry p {
+	text-align: center;
+	color: white;
+	font-size: 30px;
+
+}
+
+.infoEntry{
+	background-color: white;
+	height: 900px;
+	width: 100%;
+	position: relative;
+
+}
+.infoEntry1{
+	position: absolute;
+	height: 700px;
+	width: 45%;
+	top: 0px;
+	right: 0px;
+	left: 0px;
+	margin: auto;
+	margin-top: 35px;
+	padding-left: 125px;
+	padding-top: 20px;
+	padding-bottom: 40px; 
+	border: 2px solid black;
+	
+
+}
+
+.nameEntry  p {
+	display: inline-block;
+	font-size: 24px;
+	color: white;
+	margin: 8px 10px;
+	padding-top: 2px;
+	vertical-align: middle;
+	color: black;
+
+}
+.nameEntry input {
+	display: inline;
+	padding: 5px;
+	margin-right: 10px;
+	box-shadow: 1px 1px 0px;
+}
+
+.BdateEntry p {
+	display: inline-block;
+	font-size: 24px;
+	color: white;
+	margin: 10px 10px;
+	padding-top: 2px;
+	vertical-align: middle;
+	color: black;
+}
+
+.BdateEntry input {
+	display: inline;
+	padding: 5px;
+	margin-right: 10px;
+	box-shadow: 1px 1px 0px;
+
+}
+
+.sexEntry p {
+	display: inline-block;
+	font-size: 24px;
+	color: white;
+	margin: 10px 10px;
+	padding-top: 2px;
+	vertical-align: middle;
+	color: black;
+}
+
+.sexEntry select {
+	padding: 4px;
+
+}
+
+.relEntry  p {
+	display: inline-block;
+	font-size: 24px;
+	color: white;
+	margin: 8px 10px;
+	padding-top: 2px;
+	vertical-align: middle;
+	color: black;
+
+}
+.relEntry input {
+	display: inline;
+	padding: 5px;
+	margin-right: 10px;
+	box-shadow: 1px 1px 0px;
+}
+
+.bloodEntry p {
+	display: inline-block;
+	font-size: 24px;
+	color: white;
+	margin: 10px 10px;
+	padding-top: 2px;
+	vertical-align: middle;
+	color: black;
+}
+
+.bloodEntry select {
+	padding: 4px;
+
+}
+.specialEntry p {
+	display: inline-block;
+	font-size: 24px;
+	color: white;
+	margin: 10px -6px 10px 9px;
+	padding-top: 2px;
+	color: black;
+}
+.specialEntry h1{
+	vertical-align: middle;
+	font-size: 15px;
+	display: inline;
+}
+
+.specialEntry textarea {
+	padding: 4px;
+	box-shadow: 0px 1px 0px;
+	margin-top: 7px;
+
+}
+
+.fatherEntry  p {
+	display: inline-block;
+	font-size: 24px;
+	color: white;
+	margin: 8px 10px;
+	padding-top: 2px;
+	vertical-align: middle;
+	color: black;
+
+}
+.fatherEntry input {
+	display: inline;
+	padding: 5px;
+	margin-right: 10px;
+	box-shadow: 1px 1px 0px;
+}
+
+.motherEntry  p {
+	display: inline-block;
+	font-size: 24px;
+	color: white;
+	margin: 8px 10px;
+	padding-top: 2px;
+	vertical-align: middle;
+	color: black;
+
+}
+.motherEntry input {
+	display: inline;
+	padding: 5px;
+	margin-right: 10px;
+	box-shadow: 1px 1px 0px;
+}
+
+.gurdianEntry  p {
+	display: inline-block;
+	font-size: 24px;
+	color: white;
+	margin: 8px 10px;
+	padding-top: 2px;
+	vertical-align: middle;
+	color: black;
+
+}
+.gurdianEntry input {
+	display: inline;
+	padding: 5px;
+	margin-right: 10px;
+	box-shadow: 1px 1px 0px;
+}
+
+.contactEntry  p {
+	display: inline-block;
+	font-size: 24px;
+	color: white;
+	margin: 8px 10px;
+	padding-top: 2px;
+	vertical-align: middle;
+	color: black;
+
+}
+.contactEntry input {
+	display: inline;
+	padding: 5px;
+	margin-right: 10px;
+	box-shadow: 1px 1px 0px;
+}
+
+.addEntry p {
+	display: inline-block;
+	font-size: 24px;
+	color: white;
+	margin: 10px 10px;
+	padding-top: 2px;
+	vertical-align: top;
+	color: black;
+}
+
+.addEntry textarea {
+	padding: 4px;
+	box-shadow: 0px 1px 0px;
+	margin-top: 7px;
+
+}
+
+.relationEntry  p {
+	display: inline-block;
+	font-size: 24px;
+	color: white;
+	margin: 8px 10px;
+	padding-top: 2px;
+	vertical-align: middle;
+	color: black;
+
+}
+.relationEntry input {
+	display: inline;
+	padding: 5px;
+	margin-right: 10px;
+	box-shadow: 1px 1px 0px;
+}
+
+.dateEntry p {
+	display: inline-block;
+	font-size: 24px;
+	color: white;
+	margin: 10px 10px;
+	padding-top: 2px;
+	vertical-align: middle;
+	color: black;
+}
+
+.dateEntry select {
+	padding: 4px;
+
+}
+
+
+
+.infoEntry1 a input{
+	padding: 10px 100px;
+	border: 2px solid #AAB7B8;
+	margin-top: 20px;
+	margin-left: 110px; 
+}
+
+.infoEntry1 a input:hover {
+	border: 2px solid #333332;
+}
+/*information Part of the data ebtry end*/
+/* Orphan Entry page ends */
+
+
+/* Employee Entry page starts */
+
+.infoEntry0{
+	background-color: white;
+	height: 1100px;
+	width: 100%;
+	position: relative;
+}
+
+.infoEntry5{
+	background-color: white;
+	height: 900px;
+	width: 100%;
+	position: relative;
+}
+.infoEntry2{
+	position: absolute;
+	height: 900px;
+	width: 45%;
+	top: 0px;
+	right: 0px;
+	left: 0px;
+	margin: auto;
+	margin-top: 35px;
+	padding-left: 125px;
+	padding-top: 20px;
+	padding-bottom: 40px; 
+	border: 2px solid black;
+	
+
+}
+
+.infoEntry3{
+	position: absolute;
+	height: 700px;
+	width: 45%;
+	top: 0px;
+	right: 0px;
+	left: 0px;
+	margin: auto;
+	margin-top: 35px;
+	padding-left: 125px;
+	padding-top: 20px;
+	padding-bottom: 40px; 
+	border: 2px solid black;
+	
+
+}
+
+.nidEntry p {
+	display: inline-block;
+	font-size: 24px;
+	color: white;
+	margin: 8px 10px;
+	padding-top: 2px;
+	vertical-align: middle;
+	color: black;
+
+}
+.nidEntry input {
+	display: inline;
+	padding: 5px;
+	margin-right: 10px;
+	box-shadow: 1px 1px 0px;
+}
+.emailEntry  p {
+	display: inline-block;
+	font-size: 24px;
+	color: white;
+	margin: 8px 10px;
+	padding-top: 2px;
+	vertical-align: middle;
+	color: black;
+
+}
+.emailEntry input {
+	display: inline;
+	padding: 5px;
+	margin-right: 10px;
+	box-shadow: 1px 1px 0px;
+}
+
+.salaryEntry  p {
+	display: inline-block;
+	font-size: 24px;
+	color: white;
+	margin: 8px 10px;
+	padding-top: 2px;
+	vertical-align: middle;
+	color: black;
+
+}
+.salaryEntry input {
+	display: inline;
+	padding: 5px;
+	margin-right: 10px;
+	box-shadow: 1px 1px 0px;
+}
+
+.hiredateEntry  p {
+	display: inline-block;
+	font-size: 24px;
+	color: white;
+	margin: 8px 10px;
+	padding-top: 2px;
+	vertical-align: middle;
+	color: black;
+
+}
+.hiredateEntry input {
+	display: inline;
+	padding: 5px;
+	margin-right: 10px;
+	box-shadow: 1px 1px 0px;
+}
+
+.jobtitleEntry  p {
+	display: inline-block;
+	font-size: 24px;
+	color: white;
+	margin: 8px 10px;
+	padding-top: 2px;
+	vertical-align: middle;
+	color: black;
+
+}
+.jobtitleEntry input {
+	display: inline;
+	padding: 5px;
+	margin-right: 10px;
+	box-shadow: 1px 1px 0px;
+}
+
+.username  p {
+	display: inline-block;
+	font-size: 24px;
+	color: white;
+	margin: 8px 10px;
+	padding-top: 2px;
+	vertical-align: middle;
+	color: black;
+
+}
+.username input {
+	display: inline;
+	padding: 5px;
+	margin-right: 10px;
+	box-shadow: 1px 1px 0px;
+}
+
+.sexEntry  p {
+	display: inline-block;
+	font-size: 24px;
+	color: white;
+	margin: 8px 10px;
+	padding-top: 2px;
+	vertical-align: middle;
+	color: black;
+
+}
+.sexEntry input {
+	display: inline;
+	padding: 5px;
+	margin-right: 10px;
+	box-shadow: 1px 1px 0px;
+}
+
+.bloodEntry  p {
+	display: inline-block;
+	font-size: 24px;
+	color: white;
+	margin: 8px 10px;
+	padding-top: 2px;
+	vertical-align: middle;
+	color: black;
+
+}
+.bloodEntry input {
+	display: inline;
+	padding: 5px;
+	margin-right: 10px;
+	box-shadow: 1px 1px 0px;
+}
+
+.isAdopted  p {
+	display: inline-block;
+	font-size: 24px;
+	color: white;
+	margin: 8px 10px;
+	padding-top: 2px;
+	vertical-align: middle;
+	color: black;
+
+}
+.isAdopted input {
+	display: inline;
+	padding: 5px;
+	margin-right: 10px;
+	box-shadow: 1px 1px 0px;
+}
+
+
+.password  p {
+	display: inline-block;
+	font-size: 24px;
+	color: white;
+	margin: 8px 10px;
+	padding-top: 2px;
+	vertical-align: middle;
+	color: black;
+
+}
+.password input {
+	display: inline;
+	padding: 5px;
+	margin-right: 10px;
+	box-shadow: 1px 1px 0px;
+}
+.infoEntry2 a input{
+	padding: 10px 100px;
+	border: 2px solid #AAB7B8;
+	margin-top: 20px;
+	margin-left: 110px; 
+}
+
+.infoEntry2 a input:hover {
+	border: 2px solid #333332;
+}
+
+.infoEntry3 a input{
+	padding: 10px 100px;
+	border: 2px solid #AAB7B8;
+	margin-top: 20px;
+	margin-left: 110px; 
+}
+
+.infoEntry3 a input:hover {
+	border: 2px solid #333332;
+}
+
+/* Employee Entry page ends */
+
+
+
+/* Adoption Entry page starts */
+
+.occupationEntry  p {
+	display: inline-block;
+	font-size: 24px;
+	color: white;
+	margin: 8px 10px;
+	padding-top: 2px;
+	vertical-align: middle;
+	color: black;
+
+}
+.occupationEntry input {
+	display: inline;
+	padding: 5px;
+	margin-right: 10px;
+	box-shadow: 1px 1px 0px;
+}
+
+.orphan_name_Entry  p {
+	display: inline-block;
+	font-size: 24px;
+	color: white;
+	margin: 8px 10px;
+	padding-top: 2px;
+	vertical-align: middle;
+	color: black;
+
+}
+.orphan_name_Entry input {
+	display: inline;
+	padding: 5px;
+	margin-right: 10px;
+	box-shadow: 1px 1px 0px;
+}
+
+.orphan_ID_Entry  p {
+	display: inline-block;
+	font-size: 24px;
+	color: white;
+	margin: 8px 10px;
+	padding-top: 2px;
+	vertical-align: middle;
+	color: black;
+
+}
+.orphan_ID_Entry input {
+	display: inline;
+	padding: 5px;
+	margin-right: 10px;
+	box-shadow: 1px 1px 0px;
+}
+.adoption_dateEntry  p {
+	display: inline-block;
+	font-size: 24px;
+	color: white;
+	margin: 8px 10px;
+	padding-top: 2px;
+	vertical-align: middle;
+	color: black;
+
+}
+.adoption_dateEntry input {
+	display: inline;
+	padding: 5px;
+	margin-right: 10px;
+	box-shadow: 1px 1px 0px;
+}
+
+.couse_Entry p {
+	display: inline-block;
+	font-size: 24px;
+	color: white;
+	margin: 10px -6px 10px 9px;
+	padding-top: 2px;
+	color: black;
+}
+.couse_Entry h1{
+	vertical-align: middle;
+	font-size: 15px;
+	display: inline;
+}
+
+.couse_Entry textarea {
+	padding: 4px;
+	box-shadow: 0px 1px 0px;
+	margin-top: 7px;
+
+}
+/* Adoption Entry page ends */
+
+
+
+/* Table Part*/
+		.head3{
+			width: 50%;
+			margin: auto;
+			float: right;
+		}
+		.head3 a{
+			font-size: 50px;
+			color: white;
+			padding-top: 15px;
+			display: inline-block;
+		}
+		.menu{
+			background-color: #565656;
+			height: 80px;
+			width: 100%;
+		}
+		.optionmenu{
+			height: 70px;
+			width: 80%;
+			margin: auto;
+		}
+		.optionmenu ul{
+			list-style: none;
+		}
+		.optionmenu ul li{
+			display: inline-block;
+		}
+
+		.optionmenu ul li a{
+			color: white;
+			font-family: Baskerville Old Face;
+			display: inline-block;
+			font-size: 26px;
+			padding: 25px 40px;
+			font-weight: bold;
+
+		}
+
+		.optionmenu ul li a:hover{
+			background-color: #233237;
+			border-bottom: 4px solid black;
+		}
+
+		.body{
+			width: 98%;
+			padding-top: 20px;
+			margin: auto;
+
+		}
+		.body  a button{
+			padding: 10px 25px;
+			margin-bottom: 10px;
+		}
+
+		.body  a button:hover{
+			border: 2px solid black;
+		}
+.table{
+	padding-bottom: 100px;
+}
+
+.table table tbody td{
+	text-align: center;
+}
+
+/*Success Letter Start*/
+
+.signup_success{
+	height: 580px;
+}
+
+.s_signup{
+	height:400px;
+	width: 50%;
+	margin: 90px auto;
+	background-color: #e3eee2;
+	overflow: hidden;
+
+}
+
+.signup_letter{
+	height: 300px;
+	width: 90%;
+	margin: 50px auto;
+}
+
+.successImg{
+	width: 50%;
+	float: left;
+}
+
+.successImg img{
+	width: 250px;
+	height: 250px;
+	margin: 25px 0px 0px 50px;
+}
+
+.successLetter{
+	width: 50%;
+	float: right;
+}
+
+.successLetter p{
+	font-size: 75px;
+	display: block;
+	margin-top: 50px;
+}
+
+.successLetter button{
+	padding: 25px 60px;
+	margin-top: 15px;
+}
+
+/*Success Letter end*/
